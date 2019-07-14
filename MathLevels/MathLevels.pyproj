@@ -21,6 +21,12 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="countto1000000000.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="libtest.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="MathLevels.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
