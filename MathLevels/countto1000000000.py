@@ -4,16 +4,17 @@ import time
 
 
 x = 0
-endnumber = 1000000000
+endnumber = 1000000
 
 start = datetime.datetime.now()
 
 while x < endnumber:
     x = x + 1
+    print(x)
 
 end = datetime.datetime.now()
 
-print("No console Output has been performed")
+print("No console Output has been performed used while")
 print("Counted to: "+ str(endnumber))
 print("Started: "+ str(start))
 print("Ended: "+ str(end))
